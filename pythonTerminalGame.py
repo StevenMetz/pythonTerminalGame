@@ -13,18 +13,30 @@ class MortgageCalculator:
         self.years = years
 
     def __repr__(self):
-        return f"Mortgage Calculator with a Mortgage of {self.principle} and an interest rate of {self.interest_rate * 100}% for {self.years} years. "
+        return f"Mortgage Calculator with a Mortgage of ${self.to_money(self.total_payed())} and an interest rate of {self.interest_rate * 100}% paying ${self.to_money(self.calculate_mortgage())} per month for {self.years} years resulting in paying ${self.to_money(self.interest_payed())} in interest"
+
+    def to_money(self, input):
+        return "{:,.2f}".format(input)
 
     def calculate_mortgage(self):
-        month = self.years * 12
-        rate = self.interest_rate/12
-        mortgage = self.principle * rate * \
-            ((1 + rate)**month) / ((1 + rate)**month) - 1
+        months = self.years * 12
+        rate = (self.interest_rate/12)
+        power = (rate + 1) ** months
+        top = self.principle * rate * power
+        bottom = power - 1
+        mortgage = top/bottom
         return mortgage
+
+    def total_payed(self):
+        mortgage = self.calculate_mortgage() * 360
+        return mortgage
+
+    def interest_payed(self):
+        return self.total_payed() - self.principle
 
 
 print(word)
 
-mortgage = MortgageCalculator(principle=300000, years=5, interest_rate=5)
-print(mortgage.calculate_mortgage)
+mortgage = MortgageCalculator(principle=300000, years=30, interest_rate=5)
+print(mortgage)
 # Mortage math is principal*Interest(1+interest)^number of payments / (1+r)^n - 1
