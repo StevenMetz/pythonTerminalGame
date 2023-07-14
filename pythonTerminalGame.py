@@ -16,11 +16,15 @@ class MortgageCalculator:
         return f"Mortgage Calculator with a Mortgage of {self.principle} and an interest rate of {self.interest_rate * 100}% for {self.years} years. "
 
     def calculate_mortgage(self):
-        pass
+        month = self.years * 12
+        rate = self.interest_rate/12
+        mortgage = self.principle * rate * \
+            ((1 + rate)**month) / ((1 + rate)**month) - 1
+        return mortgage
 
 
 print(word)
 
 mortgage = MortgageCalculator(principle=300000, years=5, interest_rate=5)
-print(mortgage.interest_rate)
+print(mortgage.calculate_mortgage)
 # Mortage math is principal*Interest(1+interest)^number of payments / (1+r)^n - 1
