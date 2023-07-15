@@ -115,34 +115,19 @@ To get a local copy up and running follow these simple example steps.
 
 3. Change to Directory
 
-  ```sh
-    cd pythonTerminalGame
-  ```
+    ```sh
+      cd pythonTerminalGame
+    ```
 
 4. Run the program in your terminal
 
-  ```zsh
-    python3 pythonTerminalGame.py
-  ```
+    ```zsh
+      python3 pythonTerminalGame.py
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-* [ ] Feature 1
-* [ ] Feature 2
-* [ ] Feature 3
-  * [ ] Nested Feature
 
 See the [open issues](https://github.com/stevenmetz/pythonTerminalGame/issues) for a full list of proposed features (and known issues).
 
