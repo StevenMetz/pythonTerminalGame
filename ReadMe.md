@@ -99,12 +99,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Check that you have the latest versin of python installed if not go to [Pythons Website][Python_url] and download
-  a.
+1. Check that you have the latest versin of python installed if not go to [Pythons Website][Python-url] and download
+  
+    a.
 
-    ```zsh
-        python3 --version
-    ```
+      ```zsh
+          python3 --version
+      ```
 
 2. Clone the repo
 
