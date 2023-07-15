@@ -81,7 +81,7 @@
 
 ### Built With
 
-* [![Python.py][Python-url]
+* [![[Python]Python.py]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,10 +97,9 @@ To get a local copy up and running follow these simple example steps.
 
   pyfiglet needs to be installed with pip
 
-
 ### Installation
 
-1. Check that you have the latest versin of python installed if not go to [Python_url] and download
+1. Check that you have the latest versin of python installed if not go to [Pythons Website][Python_url] and download
   a.
 
     ```zsh
@@ -204,6 +203,4 @@ Project Link: [https://github.com/stevenmetz/pythonTerminalGame](https://github.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/steven-metz
 [product-screenshot]: images/screenshot.png
-[Python.py]: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
 [Python-url]: https://www.python.org/
-[Python_download]: https://www.python.org/downloads/
