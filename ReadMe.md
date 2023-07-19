@@ -166,9 +166,9 @@ Project Link: [https://github.com/stevenmetz/pythonTerminalGame](https://github.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## To add
 
-* []()
+* []("interest rate accepts floats")
 * []()
 * []()
 

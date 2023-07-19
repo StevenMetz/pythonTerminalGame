@@ -1,6 +1,6 @@
 import pyfiglet
 
-word = pyfiglet.figlet_format(
+title = pyfiglet.figlet_format(
     "Welcome To Mortgage Calculator", font='xsansi')
 
 
@@ -51,7 +51,7 @@ class MortgageCalculator:
                 break
 
 
-print(word)
+print(title)
 
 mortgage = MortgageCalculator()
 mortgage.start()
